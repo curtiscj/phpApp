@@ -1,0 +1,5 @@
+services:
+  php2shell-test-app:
+    build: .
+    ports:
+      - "8080:80"
